@@ -22,6 +22,10 @@ get_option() {
             echo $(get_tmux_option $option "tab")
             ;;
 
+        "@extrakto_key_alt")
+            echo $(get_tmux_option $option "tab")
+            ;;
+
         "@extrakto_split_direction")
             echo $(get_tmux_option $option "a")
             ;;
